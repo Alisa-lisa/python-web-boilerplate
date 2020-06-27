@@ -2,4 +2,4 @@
 
 import os
 from boilerplateapp import create_app
-app = create_app(os.environ['BOILERPLATEAPP_CONFIG'])
+app = create_app(os.getenv('ENV', 'local'))

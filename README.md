@@ -10,7 +10,7 @@ in a new project. I made this for myself but maybe it will help someone else. Pu
 requests and discussions on best practices welcome!
 
 ## Development setup
-
+### Deprctated
 Install all dependencies into a virtualenv which will be managed by `poetry`.
 
     make
@@ -33,6 +33,16 @@ Afterwards, type
     flask run
 
 to run the development server.
+
+## Docker setup
+1. add env variable: `export ENV=local`
+2. run: `make docker-run`
+3. swagger docs: `localhost:5000/docs`
+4. prometheus: `lolcalhost:XXXX`
+5. jaeger: `localhost:XXXX` 
+
+## Docker test
+1. run: `make docker-test`
 
 ## Running the tests
 
