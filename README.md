@@ -38,7 +38,7 @@ to run the development server.
 1. add env variable: `export ENV=local`
 2. run: `make docker-run`
 3. swagger docs: `localhost:5000/docs`
-4. prometheus: `lolcalhost:XXXX`
+4. prometheus: `lolcalhost:5000/metrics`
 5. jaeger: `localhost:XXXX` 
 
 ## Docker test
